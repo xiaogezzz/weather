@@ -1,0 +1,19 @@
+{
+    "name": "shawn/weather",
+    "description": "A weather SDK.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shawn",
+            "email": "xiaogezz@foxmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Shawn\\Weather\\": "./src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.3"
+    }
+}
