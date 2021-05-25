@@ -1,3 +1,6 @@
+> 💡 这是一个学习制作的拓展包 demo，请勿使用  
+> 👌 请使用 [overtrue/weather](https://github.com/overtrue/weather) 这个拓展包
+
 # **Weather**
 
 基于 [高德开放平台](https://lbs.amap.com/dev/id/newuser) 的 PHP 天气信息组件。
