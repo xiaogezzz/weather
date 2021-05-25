@@ -24,5 +24,12 @@
         "psr-4": {
             "Shawn\\Weather\\Tests\\": "tests/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shawn\\Weather\\ServiceProvider"
+            ]
+        }
     }
 }
