@@ -1,10 +1,12 @@
 > 💡 这是一个学习制作的拓展包 demo，请勿使用  
 > 👌 请使用 [overtrue/weather](https://github.com/overtrue/weather) 这个拓展包
 > 
-[![Build Status](https://travis-ci.com/xiaogezzz/weather.svg?branch=main)](https://travis-ci.com/xiaogezzz/weather)
 # **Weather**
 
 基于 [高德开放平台](https://lbs.amap.com/dev/id/newuser) 的 PHP 天气信息组件。
+
+![StyleCI build status](https://github.styleci.io/repos/369773835/shield) 
+[![Build Status](https://travis-ci.com/xiaogezzz/weather.svg?branch=main)](https://travis-ci.com/xiaogezzz/weather)
 
 ## **安装**
 
