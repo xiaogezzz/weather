@@ -1,5 +1,14 @@
 <?php
 
+/*
+ * This file is part of the shawn/weather.
+ *
+ * (c) shawn <xiaogezzz@foxmail.com>
+ *
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
+ */
+
 namespace Shawn\Weather\Tests;
 
 use GuzzleHttp\Client;
@@ -41,7 +50,7 @@ class WeatherTest extends TestCase
                 'city' => '重庆',
                 'output' => 'json',
                 'extensions' => 'base',
-            ]
+            ],
         ])->andReturn($response);
 
         $w = \Mockery::mock(Weather::class, ['mock-key'])->makePartial();
