@@ -8,7 +8,7 @@ use Shawn\Weather\Exceptions\InvalidArgumentException;
 
 class Weather
 {
-    protected string $key;
+    protected $key;
     protected $guzzleOptions = [];
 
     public function __construct($key)
