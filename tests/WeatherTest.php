@@ -92,7 +92,7 @@ class WeatherTest extends TestCase
         $w = new Weather('mock-key');
 
         $this->expectException(InvalidArgumentException::class);
-        $this->expectErrorMessage('Invalid type value(base/all): foo');
+        $this->expectExceptionMessage('Invalid type value(base/all): foo');
 
         $w->getWeather('重庆', 'foo');
 
@@ -104,7 +104,7 @@ class WeatherTest extends TestCase
         $w = new Weather('mock-key');
 
         $this->expectException(InvalidArgumentException::class);
-        $this->expectErrorMessage('Invalid response format: array');
+        $this->expectExceptionMessage('Invalid response format: array');
 
         $w->getWeather('重庆', 'base', 'array');
 
