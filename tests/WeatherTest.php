@@ -13,6 +13,22 @@ use PHPUnit\Framework\TestCase;
 
 class WeatherTest extends TestCase
 {
+    public function testGetLiveWeather()
+    {
+        $w = \Mockery::mock(Weather::class, ['mock-key'])->makePartial();
+        $w->expects()->getWeather('重庆', 'base', 'json')->andReturn(['success' => true]);
+
+        $this->assertSame(['success' => true], $w->getLiveWeather('重庆'));
+    }
+
+    public function testGetForecastsWeather()
+    {
+        $w = \Mockery::mock(Weather::class, ['mock-key'])->makePartial();
+        $w->expects()->getWeather('重庆', 'all', 'json')->andReturn(['success' => true]);
+
+        $this->assertSame(['success' => true], $w->getForecastsWeather('重庆'));
+    }
+
     public function testGetWeather()
     {
         // json test
