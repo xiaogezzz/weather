@@ -11,7 +11,7 @@
 ## **安装**
 
 ```bash
-$ composer require overtrue/weather -vvv
+$ composer require xiaogezzz/weather -vvv
 ```
 
 ## **配置**
@@ -21,7 +21,7 @@ $ composer require overtrue/weather -vvv
 ## **使用**
 
 ```php
-use Overtrue\Weather\Weather;
+use Shawn\Weather\Weather;
 
 $key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
